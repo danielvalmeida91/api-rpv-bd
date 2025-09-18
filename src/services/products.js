@@ -1,5 +1,5 @@
-import { knexClient } from "../knexfile.js";
+import { database } from "../database/index.js";
 
 export async function getAll() {
-  return knexClient.raw('SELECT * FROM produtos;').then(result => result);
+  return database.raw('SELECT * FROM produtos;').then(result => result);
 }
