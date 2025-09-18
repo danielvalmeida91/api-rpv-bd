@@ -1,5 +1,6 @@
+import 'dotenv/config';
 import cors from '@fastify/cors'
-import { app } from '../src/app.js';
+import { app } from './app.js';
 
 async function bootstrap() {
   app.register(cors, {

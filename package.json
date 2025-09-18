@@ -2,10 +2,10 @@
   "name": "api-node-knexjs",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "dev": "node --watch src/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +13,9 @@
   "description": "",
   "dependencies": {
     "@fastify/cors": "^11.1.0",
+    "dotenv": "^17.2.2",
     "fastify": "^5.6.0",
     "knex": "^3.1.0",
-    "mysql": "^2.18.1"
+    "mysql2": "^3.15.0"
   }
 }
