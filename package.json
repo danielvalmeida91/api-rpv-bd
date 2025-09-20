@@ -2,8 +2,10 @@
   "name": "api-node-knexjs",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:migrate": "",
+    "db:seed": "",
     "dev": "node --watch src/server.js"
   },
   "keywords": [],
